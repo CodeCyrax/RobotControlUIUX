@@ -1,0 +1,18 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-irtemplate": "~0.4.1",
+        "node-red-contrib-logstash": "~0.0.3",
+        "node-red-contrib-ros": "~1.0.10",
+        "node-red-contrib-string": "~1.0.0",
+        "node-red-contrib-ui-led": "~0.4.11",
+        "node-red-contrib-web-worldmap": "~5.1.6",
+        "node-red-contrib-web-worldmap-cn": "~4.8.2",
+        "node-red-node-rdk-ros2": "~0.0.2",
+        "node-red-node-tail": "~0.4.0",
+        "node-red-node-ui-table": "~0.4.4"
+    }
+}

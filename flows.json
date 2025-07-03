@@ -1,0 +1,1771 @@
+[
+    {
+        "id": "97eb79c4f8685157",
+        "type": "tab",
+        "label": "Robot Base and Sensor",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "57dfe020b8337ad3",
+        "type": "tab",
+        "label": "Navigation",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "05e523952554ec34",
+        "type": "tab",
+        "label": "Topics Explorer",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "784ec6d0da48b0c8",
+        "type": "tab",
+        "label": "Bag Recorder",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0b044e7bd72351ac",
+        "type": "tab",
+        "label": "Live Map",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a9bdef0e640741b5",
+        "type": "tab",
+        "label": "Waypoints",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b70a58477711757b",
+        "type": "tab",
+        "label": "Waypoint Playback",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "52ea129b24ec5f12",
+        "type": "tab",
+        "label": "Path Visualization",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "419ff8bd7c7e8903",
+        "type": "ui_tab",
+        "name": "Robot Controls",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "602d0c8fa5a24372",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#246723",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#246723",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#246723",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#38a036",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#246723",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d8fd1e64bf53a4c3",
+        "type": "ui_tab",
+        "name": "Navigation",
+        "icon": "navigation",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cdce7532a8bc8d6e",
+        "type": "ui_tab",
+        "name": "Topics Explorer",
+        "icon": "info",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5dd8c48abae50cb3",
+        "type": "ui_tab",
+        "name": "Bagfile Recorder",
+        "icon": "play_arrow",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "391d48eda037ecd4",
+        "type": "ui_tab",
+        "name": "Map & Navigation Goals",
+        "icon": "map",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c76814cb6b7ebd03",
+        "type": "ui_tab",
+        "name": "Waypoint Recorder",
+        "icon": "fiber_manual_record",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e4023835660c66b0",
+        "type": "ui_tab",
+        "name": "Waypoint Playback",
+        "icon": "play_arrow",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b81a230a2d6d7d7c",
+        "type": "ui_tab",
+        "name": "Path Visualization",
+        "icon": "map",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6d95665071becea5",
+        "type": "ui_group",
+        "name": "Navigation Controls",
+        "tab": "d8fd1e64bf53a4c3",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "445a2312fb9da397",
+        "type": "ui_group",
+        "name": "Topic Explorer",
+        "tab": "cdce7532a8bc8d6e",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1d47537c9cdfdc93",
+        "type": "ui_group",
+        "name": "Bag Recorder",
+        "tab": "5dd8c48abae50cb3",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fd710c9d6102205f",
+        "type": "ui_group",
+        "name": "Map View",
+        "tab": "391d48eda037ecd4",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "546c4bebd05cca78",
+        "type": "ui_group",
+        "name": "Robot Controls",
+        "tab": "419ff8bd7c7e8903",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "823e0ed569eb3c95",
+        "type": "ui_group",
+        "name": "Waypoint Recorder",
+        "tab": "c76814cb6b7ebd03",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7f3cd10ba928462a",
+        "type": "ui_group",
+        "name": "Waypoint Playback",
+        "tab": "e4023835660c66b0",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "43e427f3433d1b4a",
+        "type": "ui_group",
+        "name": "Path Visualization",
+        "tab": "b81a230a2d6d7d7c",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "118d8a6806b1866f",
+        "type": "ui_group",
+        "name": " ",
+        "tab": "",
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7728c7db5fc232c9",
+        "type": "ui_tab",
+        "name": "Build ",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e65f8d94900b265b",
+        "type": "ui_group",
+        "name": " ",
+        "tab": "7728c7db5fc232c9",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "857bf21f167f147a",
+        "type": "ui_group",
+        "name": "TL",
+        "tab": "5dd8c48abae50cb3",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bd694828187f9135",
+        "type": "ui_button",
+        "z": "97eb79c4f8685157",
+        "name": "Start Base",
+        "group": "546c4bebd05cca78",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Start Base",
+        "tooltip": "Launches the robot base nodes",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "robot_base",
+        "topicType": "str",
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "5a103369f2ab688d"
+            ]
+        ]
+    },
+    {
+        "id": "5a103369f2ab688d",
+        "type": "function",
+        "z": "97eb79c4f8685157",
+        "name": "Launch Base",
+        "func": "if(msg.payload === \"start\") {\n    msg.payload = \"roslaunch my_robot bringup.launch\";\n    return msg;\n}\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 260,
+        "wires": [
+            [
+                "9bb6c0750fa9b64e"
+            ]
+        ]
+    },
+    {
+        "id": "9bb6c0750fa9b64e",
+        "type": "exec",
+        "z": "97eb79c4f8685157",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Launch Base",
+        "x": 550,
+        "y": 260,
+        "wires": [
+            [
+                "a9cf8adfa3b79c31"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a9cf8adfa3b79c31",
+        "type": "ui_text",
+        "z": "97eb79c4f8685157",
+        "group": "546c4bebd05cca78",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "Base Status",
+        "label": "Base Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 750,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "fe2c46d0f642bb1a",
+        "type": "ui_button",
+        "z": "97eb79c4f8685157",
+        "name": "Start Sensors",
+        "group": "546c4bebd05cca78",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Start Sensors",
+        "tooltip": "Launches sensor nodes",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "robot_sensors",
+        "topicType": "str",
+        "x": 160,
+        "y": 480,
+        "wires": [
+            [
+                "d0c5d8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "d0c5d8e5d5c8b8a1",
+        "type": "function",
+        "z": "97eb79c4f8685157",
+        "name": "Launch Sensors",
+        "func": "if(msg.payload === \"start\") {\n    msg.payload = \"roslaunch my_robot sensors.launch\";\n    return msg;\n}\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 480,
+        "wires": [
+            [
+                "c7e0b8e9c8e1f2d3"
+            ]
+        ]
+    },
+    {
+        "id": "c7e0b8e9c8e1f2d3",
+        "type": "exec",
+        "z": "97eb79c4f8685157",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Launch Sensors",
+        "x": 560,
+        "y": 480,
+        "wires": [
+            [
+                "969c350234ffd62d"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "969c350234ffd62d",
+        "type": "ui_text",
+        "z": "97eb79c4f8685157",
+        "group": "546c4bebd05cca78",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "name": "Sensor Status",
+        "label": "Sensor Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 760,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "d44f18fa7742ab38",
+        "type": "inject",
+        "z": "97eb79c4f8685157",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 360,
+        "wires": [
+            [
+                "5a103369f2ab688d"
+            ]
+        ]
+    },
+    {
+        "id": "a8d15873e130efe9",
+        "type": "inject",
+        "z": "97eb79c4f8685157",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 620,
+        "wires": [
+            [
+                "d0c5d8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "bd9272b32047dfc7",
+        "type": "exec",
+        "z": "97eb79c4f8685157",
+        "command": "Compiler",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Launch Base",
+        "x": 550,
+        "y": 120,
+        "wires": [
+            [
+                "d1e0d2bd7ff0c596"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "19993e57abd7c9d1",
+        "type": "function",
+        "z": "97eb79c4f8685157",
+        "name": "Colcon Build and Source.",
+        "func": "if (msg.payload === \"start\") {\n    msg.payload = `\n        cd ~/ros2_ws && \\\n        colcon build && \\\n        source install/setup.bash\n    `;\n    return msg;\n}\nreturn null;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 60,
+        "wires": [
+            [
+                "bd9272b32047dfc7"
+            ]
+        ]
+    },
+    {
+        "id": "d1e0d2bd7ff0c596",
+        "type": "ui_text",
+        "z": "97eb79c4f8685157",
+        "group": "546c4bebd05cca78",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "Base Status",
+        "label": "Base Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 730,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "7e58796aa4766db0",
+        "type": "inject",
+        "z": "97eb79c4f8685157",
+        "name": "Build Packages",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "19993e57abd7c9d1"
+            ]
+        ]
+    },
+    {
+        "id": "b5a10bb1bd48eacb",
+        "type": "ui_button",
+        "z": "97eb79c4f8685157",
+        "name": "",
+        "group": "e65f8d94900b265b",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Build",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [
+                "19993e57abd7c9d1"
+            ]
+        ]
+    },
+    {
+        "id": "f62b1855468b19d3",
+        "type": "ui_button",
+        "z": "57dfe020b8337ad3",
+        "name": "Start Navigation",
+        "group": "6d95665071becea5",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Start Navigation",
+        "tooltip": "Starts the navigation stack",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "navigation",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "a8d5b8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "a8d5b8e5d5c8b8a1",
+        "type": "function",
+        "z": "57dfe020b8337ad3",
+        "name": "Launch Navigation",
+        "func": "var config = global.get('nav_config') || 'default';\nmsg.payload = \"roslaunch my_robot navigation.launch config:=\" + config;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "b7e0b8e9c8e1f2d3"
+            ]
+        ]
+    },
+    {
+        "id": "b7e0b8e9c8e1f2d3",
+        "type": "exec",
+        "z": "57dfe020b8337ad3",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Launch Navigation",
+        "x": 550,
+        "y": 100,
+        "wires": [
+            [
+                "436eeaad38473052"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "436eeaad38473052",
+        "type": "ui_text",
+        "z": "57dfe020b8337ad3",
+        "group": "6d95665071becea5",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "Navigation Status",
+        "label": "Navigation Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 750,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f49ce787f4c74359",
+        "type": "ui_dropdown",
+        "z": "57dfe020b8337ad3",
+        "name": "Config Selector",
+        "label": "Navigation Config",
+        "tooltip": "Select navigation configuration",
+        "place": "Select config...",
+        "group": "6d95665071becea5",
+        "order": 3,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Default",
+                "value": "default",
+                "type": "str"
+            },
+            {
+                "label": "Indoor",
+                "value": "indoor",
+                "type": "str"
+            },
+            {
+                "label": "Outdoor",
+                "value": "outdoor",
+                "type": "str"
+            },
+            {
+                "label": "High Precision",
+                "value": "high_precision",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "nav_config",
+        "topicType": "msg",
+        "className": "",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "d5c5d8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "d5c5d8e5d5c8b8a1",
+        "type": "function",
+        "z": "57dfe020b8337ad3",
+        "name": "Set Config",
+        "func": "global.set('nav_config', msg.payload);\nmsg.payload = \"Navigation config set to: \" + msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "436eeaad38473052"
+            ]
+        ]
+    },
+    {
+        "id": "d776ae12f49364bb",
+        "type": "ui_dropdown",
+        "z": "05e523952554ec34",
+        "name": "Topic List",
+        "label": "Available Topics",
+        "tooltip": "Select a topic to inspect",
+        "place": "Select topic...",
+        "group": "445a2312fb9da397",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "/cmd_vel",
+                "value": "/cmd_vel",
+                "type": "str"
+            },
+            {
+                "label": "/odom",
+                "value": "/odom",
+                "type": "str"
+            },
+            {
+                "label": "/scan",
+                "value": "/scan",
+                "type": "str"
+            },
+            {
+                "label": "/camera/rgb/image_raw",
+                "value": "/camera/rgb/image_raw",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "selected_topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "6b4fbf5baa4ea102"
+            ]
+        ]
+    },
+    {
+        "id": "6b4fbf5baa4ea102",
+        "type": "ui_button",
+        "z": "05e523952554ec34",
+        "name": "Get Topic Info",
+        "group": "445a2312fb9da397",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Get Topic Info",
+        "tooltip": "Gets info about selected topic",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "info",
+        "payloadType": "str",
+        "topic": "topic_info",
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "e8d5b8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "e8d5b8e5d5c8b8a1",
+        "type": "function",
+        "z": "05e523952554ec34",
+        "name": "Get Topic Info",
+        "func": "if(msg.payload === \"info\") {\n    var topic = global.get('selected_topic') || 'none';\n    msg.payload = \"rostopic info \" + topic;\n    return msg;\n}\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 100,
+        "wires": [
+            [
+                "f7e0b8e9c8e1f2d3"
+            ]
+        ]
+    },
+    {
+        "id": "f7e0b8e9c8e1f2d3",
+        "type": "exec",
+        "z": "05e523952554ec34",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Get Topic Info",
+        "x": 750,
+        "y": 100,
+        "wires": [
+            [
+                "a33750f96bce4874"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a33750f96bce4874",
+        "type": "ui_text",
+        "z": "05e523952554ec34",
+        "group": "445a2312fb9da397",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "name": "Topic Info",
+        "label": "Topic Info",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 950,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "6630c0c09f86e065",
+        "type": "ui_button",
+        "z": "784ec6d0da48b0c8",
+        "name": "Start Recording",
+        "group": "1d47537c9cdfdc93",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Start Recording",
+        "tooltip": "Starts recording bag file",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "bag_record",
+        "topicType": "str",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "a9d5b8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "a9d5b8e5d5c8b8a1",
+        "type": "function",
+        "z": "784ec6d0da48b0c8",
+        "name": "Start Recording",
+        "func": "const topics = flow.get(\"selected_topics\");\nif (!topics || topics.length === 0) return null;\n\n// Get current date and time\nconst now = new Date();\nconst yyyy = now.getFullYear();\nconst mm = String(now.getMonth() + 1).padStart(2, '0');\nconst dd = String(now.getDate()).padStart(2, '0');\nconst hh = String(now.getHours()).padStart(2, '0');\nconst min = String(now.getMinutes()).padStart(2, '0');\nconst ss = String(now.getSeconds()).padStart(2, '0');\n\nconst timestamp = `${yyyy}-${mm}-${dd}_${hh}-${min}-${ss}`;\nconst bagPath = `/home/fuckoff/tedusar/bag_${timestamp}`;\n\nmsg.payload = `/bin/bash -c \"source /home/fuckoff/ros2_ws/install/setup.bash && ros2 bag record ${topics.join(' ')} -o ${bagPath}\"`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 100,
+        "wires": [
+            [
+                "d7e0b8e9c8e1f2d3"
+            ]
+        ]
+    },
+    {
+        "id": "d7e0b8e9c8e1f2d3",
+        "type": "exec",
+        "z": "784ec6d0da48b0c8",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Start Recording",
+        "x": 550,
+        "y": 100,
+        "wires": [
+            [
+                "d1134f4aa866a63c"
+            ],
+            [
+                "0b4ffeb30ce441fe",
+                "5ada850894230461"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d1134f4aa866a63c",
+        "type": "ui_text",
+        "z": "784ec6d0da48b0c8",
+        "group": "1d47537c9cdfdc93",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "name": "Recording topics",
+        "label": "Recording topics",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 870,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ba14c354c26c6462",
+        "type": "ui_button",
+        "z": "784ec6d0da48b0c8",
+        "name": "Stop Recording",
+        "group": "1d47537c9cdfdc93",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Stop Recording",
+        "tooltip": "Stops recording bag file",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "stop",
+        "payloadType": "str",
+        "topic": "bag_record",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "b9d5b8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "b9d5b8e5d5c8b8a1",
+        "type": "function",
+        "z": "784ec6d0da48b0c8",
+        "name": "Stop Recording",
+        "func": "msg.payload = \"pkill -f 'ros2 bag record'\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "e7e0b8e9c8e1f2d3"
+            ]
+        ]
+    },
+    {
+        "id": "e7e0b8e9c8e1f2d3",
+        "type": "exec",
+        "z": "784ec6d0da48b0c8",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Stop Recording",
+        "x": 550,
+        "y": 160,
+        "wires": [
+            [
+                "d1134f4aa866a63c",
+                "5ada850894230461"
+            ],
+            [
+                "0b4ffeb30ce441fe"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c2c0004a4ea3f83b",
+        "type": "ui_template",
+        "z": "784ec6d0da48b0c8",
+        "group": "1d47537c9cdfdc93",
+        "name": "Select Topics",
+        "order": 4,
+        "width": "6",
+        "height": "12",
+        "format": "<div style=\"padding: 10px;\">\n  <h3>Select Topics to Record</h3>\n  <div ng-repeat=\"topic in topics track by $index\" style=\"margin-bottom: 5px;\">\n    <input type=\"checkbox\" id=\"topic-{{$index}}\" ng-model=\"topic.selected\" ng-change=\"update()\">\n    <label for=\"topic-{{$index}}\">{{topic.name}}</label>\n  </div>\n</div>\n\n<script>\n(function(scope) {\n  scope.$watch('msg.payload', function(payload) {\n    if (payload && payload.topics) {\n      scope.topics = payload.topics;\n    }\n  });\n\n  scope.update = function() {\n    const selected = (scope.topics || [])\n      .filter(t => t.selected)\n      .map(t => t.name);\n    scope.send({ payload: selected });\n  };\n})(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 270,
+        "y": 420,
+        "wires": [
+            [
+                "f9d5b8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "f9d5b8e5d5c8b8a1",
+        "type": "function",
+        "z": "784ec6d0da48b0c8",
+        "name": "Set Record Topics",
+        "func": "\nflow.set('selected_topics', msg.payload);\nmsg.payload = \"Topics to record: \" + msg.payload;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 420,
+        "wires": [
+            [
+                "d1134f4aa866a63c"
+            ]
+        ]
+    },
+    {
+        "id": "206a4d2b6909a7d4",
+        "type": "ui_button",
+        "z": "784ec6d0da48b0c8",
+        "name": "\tGet Topics",
+        "group": "857bf21f167f147a",
+        "order": 0,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "R",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "msg",
+        "x": 270,
+        "y": 640,
+        "wires": [
+            [
+                "c59429df7ae10466"
+            ]
+        ]
+    },
+    {
+        "id": "c59429df7ae10466",
+        "type": "exec",
+        "z": "784ec6d0da48b0c8",
+        "command": " ros2 topic list ",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 490,
+        "y": 640,
+        "wires": [
+            [
+                "c1ca77da5b8f159c"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c1ca77da5b8f159c",
+        "type": "function",
+        "z": "784ec6d0da48b0c8",
+        "name": "function 1",
+        "func": "const topics = msg.payload.split('\\n').filter(t => t.trim() !== '');\nmsg.payload = { topics: topics.map(t => ({ name: t, selected: false })) };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 640,
+        "wires": [
+            [
+                "c2c0004a4ea3f83b"
+            ]
+        ]
+    },
+    {
+        "id": "0b4ffeb30ce441fe",
+        "type": "ui_text",
+        "z": "784ec6d0da48b0c8",
+        "group": "1d47537c9cdfdc93",
+        "order": 5,
+        "width": "6",
+        "height": "7",
+        "name": "Recording Status",
+        "label": "Recording Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 930,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "5ada850894230461",
+        "type": "ui_toast",
+        "z": "784ec6d0da48b0c8",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1120,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "36746a9550ead629",
+        "type": "ui_worldmap",
+        "z": "0b044e7bd72351ac",
+        "group": "fd710c9d6102205f",
+        "order": 1,
+        "width": "12",
+        "height": "8",
+        "name": "Robot Position",
+        "lat": "51.505",
+        "lon": "-0.09",
+        "zoom": "15",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 250,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "577ba161406832f6",
+        "type": "ui_text",
+        "z": "0b044e7bd72351ac",
+        "group": "fd710c9d6102205f",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "Status",
+        "label": "Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 250,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "dd9b815b2dec2111",
+        "type": "ui_button",
+        "z": "a9bdef0e640741b5",
+        "name": "Record Waypoint",
+        "group": "823e0ed569eb3c95",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Record Waypoint",
+        "tooltip": "Records current robot pose as waypoint",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "record",
+        "payloadType": "str",
+        "topic": "waypoint_record",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "c8d5b8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "c8d5b8e5d5c8b8a1",
+        "type": "function",
+        "z": "a9bdef0e640741b5",
+        "name": "Record Waypoint",
+        "func": "if(msg.payload === \"record\") {\n    // In a real implementation, this would get the current pose from ROS\n    var waypoints = global.get('waypoints') || [];\n    var newWaypoint = {\n        id: waypoints.length + 1,\n        x: (Math.random() * 10).toFixed(2),\n        y: (Math.random() * 10).toFixed(2),\n        theta: (Math.random() * 6.28).toFixed(2),\n        timestamp: new Date().toISOString()\n    };\n    waypoints.push(newWaypoint);\n    global.set('waypoints', waypoints);\n    msg.payload = \"Recorded waypoint #\" + newWaypoint.id;\n    return msg;\n}\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "ad76b7282c66bb2d"
+            ]
+        ]
+    },
+    {
+        "id": "ad76b7282c66bb2d",
+        "type": "ui_table",
+        "z": "a9bdef0e640741b5",
+        "group": "823e0ed569eb3c95",
+        "name": "Waypoint List",
+        "order": 2,
+        "width": "6",
+        "height": "6",
+        "columns": [
+            {
+                "field": "id",
+                "title": "ID",
+                "width": "50px"
+            },
+            {
+                "field": "x",
+                "title": "X",
+                "width": "80px"
+            },
+            {
+                "field": "y",
+                "title": "Y",
+                "width": "80px"
+            },
+            {
+                "field": "theta",
+                "title": "θ",
+                "width": "80px"
+            },
+            {
+                "field": "timestamp",
+                "title": "Time",
+                "width": "150px"
+            }
+        ],
+        "outputs": 1,
+        "cts": false,
+        "x": 750,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0212b2bc9b78edda",
+        "type": "ui_button",
+        "z": "a9bdef0e640741b5",
+        "name": "Clear Waypoints",
+        "group": "823e0ed569eb3c95",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Clear Waypoints",
+        "tooltip": "Clears all recorded waypoints",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "clear",
+        "payloadType": "str",
+        "topic": "waypoint_record",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be01859e51d73aae",
+        "type": "ui_button",
+        "z": "b70a58477711757b",
+        "name": "Play Waypoints",
+        "group": "7f3cd10ba928462a",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Play Waypoints",
+        "tooltip": "Starts waypoint playback",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "waypoint_playback",
+        "topicType": "str",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "f8d5b8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "f8d5b8e5d5c8b8a1",
+        "type": "function",
+        "z": "b70a58477711757b",
+        "name": "Play Waypoints",
+        "func": "if(msg.payload === \"start\") {\n    var waypoints = global.get('waypoints') || [];\n    if(waypoints.length === 0) {\n        msg.payload = \"No waypoints to play\";\n        return msg;\n    }\n    \n    msg.payload = \"Playing \" + waypoints.length + \" waypoints\";\n    msg.waypoints = waypoints;\n    return msg;\n}\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "87e0b8e9c8e1f2d3"
+            ]
+        ]
+    },
+    {
+        "id": "87e0b8e9c8e1f2d3",
+        "type": "function",
+        "z": "b70a58477711757b",
+        "name": "Send Waypoints to ROS",
+        "func": "// In a real implementation, this would send each waypoint to the robot\n// For this example, we'll just log them\nconsole.log(\"Waypoints to play:\", msg.waypoints);\nmsg.payload = \"Sent \" + msg.waypoints.length + \" waypoints to robot\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 100,
+        "wires": [
+            [
+                "77ba161406832f6"
+            ]
+        ]
+    },
+    {
+        "id": "77ba161406832f6",
+        "type": "ui_text",
+        "z": "b70a58477711757b",
+        "group": "7f3cd10ba928462a",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "Playback Status",
+        "label": "Playback Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 750,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4424203345bb9643",
+        "type": "ui_button",
+        "z": "b70a58477711757b",
+        "name": "Stop Playback",
+        "group": "7f3cd10ba928462a",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Stop Playback",
+        "tooltip": "Stops waypoint playback",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "stop",
+        "payloadType": "str",
+        "topic": "waypoint_playback",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c649d3dc31f5c8c3",
+        "type": "ui_slider",
+        "z": "b70a58477711757b",
+        "name": "Playback Speed",
+        "label": "Playback Speed",
+        "tooltip": "Adjust playback speed",
+        "group": "7f3cd10ba928462a",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "outs": "end",
+        "topic": "playback_speed",
+        "min": 0.1,
+        "max": 2,
+        "step": 0.1,
+        "className": "",
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "f8d5b8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "7d66fc4607614250",
+        "type": "ui_switch",
+        "z": "b70a58477711757b",
+        "name": "Loop Control",
+        "label": "Loop Playback",
+        "tooltip": "Toggle loop playback",
+        "group": "7f3cd10ba928462a",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "loop_playback",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 150,
+        "y": 280,
+        "wires": [
+            [
+                "f8d5b8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "e67fa85caf80d31f",
+        "type": "ui_worldmap",
+        "z": "52ea129b24ec5f12",
+        "group": "43e427f3433d1b4a",
+        "order": 1,
+        "width": "12",
+        "height": "8",
+        "name": "Path Visualization",
+        "lat": "51.505",
+        "lon": "-0.09",
+        "zoom": "15",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 250,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "7283b8604722cdda",
+        "type": "ui_button",
+        "z": "52ea129b24ec5f12",
+        "name": "Clear Path",
+        "group": "43e427f3433d1b4a",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Clear Path",
+        "tooltip": "Clears the displayed path",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "clear",
+        "payloadType": "str",
+        "topic": "path_visualization",
+        "x": 150,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "80d55dc4378259ab",
+        "type": "ui_switch",
+        "z": "52ea129b24ec5f12",
+        "name": "Path Tracking",
+        "label": "Track Path",
+        "tooltip": "Toggle path tracking",
+        "group": "43e427f3433d1b4a",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "path_tracking",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 150,
+        "y": 280,
+        "wires": [
+            [
+                "b8d5b8e5d5c8b8a1"
+            ]
+        ]
+    },
+    {
+        "id": "b8d5b8e5d5c8b8a1",
+        "type": "function",
+        "z": "52ea129b24ec5f12",
+        "name": "Toggle Path Tracking",
+        "func": "global.set('track_path', msg.payload);\nmsg.payload = \"Path tracking \" + (msg.payload ? \"enabled\" : \"disabled\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 280,
+        "wires": [
+            [
+                "c7ba161406832f6"
+            ]
+        ]
+    },
+    {
+        "id": "c7ba161406832f6",
+        "type": "ui_text",
+        "z": "52ea129b24ec5f12",
+        "group": "43e427f3433d1b4a",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "name": "Tracking Status",
+        "label": "Tracking Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 550,
+        "y": 280,
+        "wires": []
+    }
+]
